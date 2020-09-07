@@ -40,11 +40,11 @@ y = input ("qual comando rever? ")
 
 comando = (y)
 
-if comando >= "if":
-    print ("será o bloco de instrução a ser executados todas as vezes que a condição for verdadeira.\n")
-if comando >= "else":
-    print ("A palavra else do Inglês, significa SENÃO e com esta, definiremos o bloco de instrução a ser executado todas as vezes que a expressão definida for igual a falso.")
-if comando >= "While":
+if comando == "1":
+    print("será o bloco de instrução a ser executados todas as vezes que a condição for verdadeira.\n")
+elif comando == "2":
+    print ("A palavra else do Inglês, significa SENÃO e com esta, definiremos o bloco de instrução a ser executado todas as vezes que a expressão definida for igual a falso.")
+elif comando == "3":
     print (y , "É um laco de Repeticao")
 else:
     print ("Você Nao digitou um comando !")
